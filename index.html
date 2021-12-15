@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>cvJohann Website Responsivo</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Johann</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Início
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Formação
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experiência
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="profile_picture" class="home__img">
+
+                            <h1 class="home__title"><b>JOHANN CARLOS</b></h1>
+                            <h3 class="home__profession">Desenvolvedor Web</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/cvJohann.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i>Rua Miguel Ângelo, 600 - Rio de Janeiro, RJ
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i>johanncf@metalmat.ufrj.br
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i>+55 (21) 99195-2066
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> @johanncarlos
+                        </a>
+
+                        <a href="" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> @johanncf
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Sobre mim</h2>
+
+                    <p class="profile__description">Sou estudante de Nanotecnologia pela UFRJ e Fullstack development
+                        pelo DEVinHouseSENAI/SC.
+                        Sou apaixonado por tecnologia e inovação de ponta.
+                        Atualmente estou estudando programação e stacks de desenvolvimento web.
+                        Meu objetivo profissional é promover melhoria na vida das pessoas através do conhecimento e da
+                        tecnologia.
+                        Para alcançar esta meta estou disposto a dar o meu melhor e me desenvolver mais a cada dia.
+                        Busco, acima de tudo, uma oportunidade que me impulsione nesta direção.
+                    </p>
+                </section>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">HABILIDADES</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript(ES6+)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>C
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>React
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Pandas/Plotly
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Git & Github
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Formação</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">BACHARELADO EM NANOTECNOLOGIA</h3>
+                                <span class="education__studies">Universidade Federal do Rio de Janeiro - UFRJ</span>
+                                <span class="education__year">2015 - 2021</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">DESENVOLVIMENTO WEB</h3>
+                                <span class="education__studies">SENAI/SC</span>
+                                <span class="education__year">2021 - 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PESQUISADOR JR.</h3>
+                                <span class="experience__company">Abril/2021 - Agosto/2021 | Plasticor</span>
+                                <p class="experience__description">A empresa trata-se de uma Startup com know-how em
+                                    nanotecnologia para o mercado de embalagens inteligentes e biodegradáveis. A
+                                    experiência de trabalhar numa startup é extremamente engrandecedora. Uma empresa em
+                                    ascenção demanda profissionais com a capacidade de se adaptar a diferentes funções e
+                                    ter proatividade para contribuir na solução de problemas adversos de forma
+                                    cooperativa.
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PESQUISA CIENTÍFICA</h3>
+                                <span class="experience__company">Outubro/2018 - Janeiro/2021 | COPPE</span>
+                                <p class="experience__description">O projeto tinha por objetivo produzir como solução
+                                    tecnológica para o mercado de óleo e gás, recobrimentos de carbono para peças
+                                    fundamentais de bombas centrífugas submersas, mais especificamente os mancais de
+                                    tais bombas, visando reduzir o desgaste abrasivo provocado pelas partículas
+                                    presentes nos fluidos de interesse. A solução possibilita aumentar a vida útil das
+                                    bombas, além de reduzir o número de intervenções off-shore para manutenção.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <!-- <section class="certificate section" id="certificates">
+
+                </section> -->
+
+                <!--========== REFERENCES ==========-->
+                <!-- <section class="references section" id="references">
+
+                </section> -->
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Português
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Inglês
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interesses</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-music interests__icon'></i>
+                            <span class="interests__name">Música</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-tree interests__icon'></i>
+                            <span class="interests__name">Natureza</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-swim interests__icon'></i>
+                            <span class="interests__name">Natação</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-atom interests__icon'></i>
+                            <span class="interests__name">Ciência</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
