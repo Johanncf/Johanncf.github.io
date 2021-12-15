@@ -549,6 +549,12 @@ img {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .experience__line {
+    height: 106%;
+  }
+}
+
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
   body {
